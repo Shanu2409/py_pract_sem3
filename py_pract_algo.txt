@@ -1,0 +1,253 @@
+1.a
+
+1. take a user input, name & age
+2. ans = age - 100
+3. print the ans with a message of 100 years
+
+
+1.b
+
+1. take a user input num
+2. if num % 2 is equal to 0 then the number is even
+3. if  not then rhe number is odd number
+
+
+1.c
+
+1. set num1 = 0, num2 = 1
+2. start a for loop for 10 itarations
+3. print num1 in loop
+4. store num2 value in num1 and num1 + num2 value in num2
+
+
+1.d
+
+1.	start printing each charactar from last to first.
+
+
+1.e
+
+1. take a user input num and copy it into temp variable
+2. start a while loop till the temp is > 0
+3. extract the last digit of the temp and store it in digit variable 
+4. sum the last answer with the cube of digit
+5. divide temp by 10
+6. after end of loop check if the sum is equal to num
+7. if yes then the its armstrong number, otherwise its not
+
+1.store user input in num and copy it into a temp variable
+2. .set rev = 0
+3. start while loop till temp > 0
+4. extract each digit from temp
+5. rev * 10 + digit
+6. after end of loop check rev is = num or not
+7. if yes then the number is palindrome, otherwise its not
+
+
+1.F
+
+1. take a user input num
+2. set a base case if n == 1 return 1
+3. write a recursive call on return n * (factorial (n-1))
+
+
+2.a
+
+1. check if the user input is 'A', 'E' , 'I', 'O', 'U'
+2. if yes then its a vowel, otherwise its not
+
+
+2.b
+
+1. start a loop and iterate all the element of given string or list
+2. add 1 on cnt on each iteration
+3. after end of loop return cnt
+
+
+2.c 
+
+1. start a loop iterating the length of list
+2. print member of list * '*'
+
+
+3.a 
+
+1. create a string of all alphabets
+2. iterate alll the character of input string
+3. chack if character is in our alphabet string or not
+4. if no then return false
+5. in end return True
+
+
+
+3.b
+
+1. iterate all element of the list
+2. if that element if < 5 print it
+
+
+
+4.a 
+
+1. iterate the fist list
+2. check if that member is avilable in second or not
+3. if yes then return ture, otherwise return false
+
+4.b
+
+1. print the original list
+2. use pop method to pop out the elements
+3. print the updated list
+
+
+4.c
+
+1. print first list
+2. clone the first list usiing the copy method which will return a new list
+3. print the copied list
+
+
+5.a 
+
+1. using operator module to sort the values of dictionary 
+2. print the ascending order
+3. print the descending order
+
+
+5.b 
+
+1. update he dic2 with dic3
+2. then update the dic1 with dic2
+3. print the new value of dic1
+
+
+5.c
+
+1. print the normal dictionary 
+2. use the sum function and values method to sum all values of dictionary
+3. print the answer
+
+
+6.a 
+
+1. open a text file with read mode
+2. use read method to read all the text in that file
+3. close the file
+
+
+6.b
+
+1. read the text from user
+2. open the file in append mode
+3. write the text in file
+4. close the file
+5. open it again with read mode
+6. read all the text from the file
+7. close the file
+
+
+6.c 
+
+1. open the text file
+2. read the text using readline medhod
+3. print the last line 
+4. close the file
+
+
+7.a 
+
+1. create a class student
+2. create a function setdate which will take some arguments like name, age, roll no
+3. create one more function getdata which will print all the info of student 
+4. create object of class and use the functions
+
+
+7.b 
+
+1. create 2 classes
+2. inherite the properties of first class to second class
+3. create the object of second class
+4. call the function of first class using the object of second class
+
+
+7.c
+
+1. Write a method called add which returns the sum of the attributes x and y.
+2. Write a class method called multiply, which takes a single number
+parameter a and returns the product of a and MULTIPLIER.
+3. Write a static method called subtract, which takes two number parameters, b
+and c, and returns b - c.
+4. Write a method called value which returns a tuple containing the values of x
+and y. Make this method into a property, and write a setter and a deleter for
+manipulating the values of x and y.
+
+
+
+8.a
+
+1. import math module
+2. create a function for area of circle which will take one argument
+3. create a funcion for area of square which will take one argument
+4. create pointyShapeVolume which will take 3 argument ( x, h, square)
+5. if the square is false then base = are of circle
+6. if square if true then base = area of square
+7. in end return h*base/3
+
+
+8.b
+
+1. write some code in try block
+2. if zeroDivisionError or ValueError then print a something wrong message
+3. print the answer in else block
+
+
+9.a 
+
+1. import tkinter and create its onbject root
+2. create a label with some text and give some style
+3. place it into our root frame
+4. start a mainloop
+
+
+9.b
+
+
+1. import tkinter 
+2. create its object root and set geomerty
+3. create 3 buttons and pack it into root frame
+4. create 2 radio button and pack it in frame
+5. create a scroll scale and pack it in out root frame
+6. start the mainloop
+
+
+10.a
+
+1. import tkinter and pymysql module
+2. create a put function which will connect to the mysql database, then it will insert all the values into demo table
+3. if no error then commit, if any error is raised then rollback and in end close
+4. create one more get function which willl connect to mysql datebase and fetch the row and set it into tkinter message box
+5.create object of tkinter root
+6. create all entry elemet (first name, last name, age, sex, percentage ) and place them on our root frame
+7. create tkinter lables to show the data form database
+8. start mainloop
+
+
+10.b
+
+1.import tkinter and pymysql module
+2. create a get funcion which will connect to mysql database and fetch the data of specific percentage row
+3. create obj of tkinter root
+4. create label and entry for user input
+5. create a button to call the get funcion and fetch the data
+6. start mainloop
+
+
+10.c
+
+1. import tkinter and pymysql module
+2. create a update funciton to update the data in database, it will login into mysql database and update the data and commit the changes
+3. create one delete function to delete a entry, it will login into mysql database and delete the data and commit the changes
+4. create a put function to insert the data in demo table  of mysql database, after inserting commit the changes
+5. create one more get function which willl connect to mysql datebase and fetch the row and set it into tkinter message box
+6. create object of tkinter
+7. create all label and entry for user inpout
